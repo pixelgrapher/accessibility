@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Learning Accessibility</title>
+<link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+
+
+<table>
+<caption>This table does not have scope.</caption>
+<tr>
+<td>Heroes</td><td>Villains</td>
+</tr>
+<tr>
+<td>Luke Skywalker</td><td>Darth Vader</td>
+</tr>
+<td>Princess Leia</td><td>The Emperor</td>
+</tr>
+</table>
+
+
+
+<table>
+<caption>This table has scope.</caption>
+<thead>
+<tr>
+<th scope="col">Heroes</th><th scope="col">Villains</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Luke Skywalker</td><td>Darth Vader</td>
+</tr>
+<td>Princess Leia</td><td>The Emperor</td>
+</tr>
+</tbody>
+
+</table>
+
+
+
+
+</body>
+</html>
